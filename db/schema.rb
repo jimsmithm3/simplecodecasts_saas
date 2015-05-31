@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(version: 20150531221011) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "plan_id"
+    t.string   "token"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true
