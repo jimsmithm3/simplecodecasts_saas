@@ -8,6 +8,8 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+gem 'paperclip', '4.2.1'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.3'
 # Use bootstrap library for styles
